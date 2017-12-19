@@ -17,7 +17,7 @@ public class KeyIn {
             buf = br.readLine();                                               // キーボード入力
         } catch (IOException e) {                                              // キーボード入力致命的エラー
             System.out.println(e);                                             // エラー情報の表示
-            System.exit(1);                                              // プログラムの異常終了
+            System.exit(1);                                                    // プログラムの異常終了
         }
         return buf; // 文字列を返却
     }
