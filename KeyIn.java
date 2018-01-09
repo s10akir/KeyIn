@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * 教科書9.4 267p
  */
 public class KeyIn {
-    String buf = null; // 入力バッファのイニシャライズ
+    String buf = null;                                                         // 入力バッファのイニシャライズ
     BufferedReader br =  new BufferedReader(new InputStreamReader(System.in)); // キーボード入力の準備
 
     /* 文字列を入力するメソッド */
